@@ -21,9 +21,8 @@ def parse(document)
   powers
 end
 
-puts parse(File.read("input.txt")).sum
-puts parse(DATA.read).sum == 2286
 fail unless 2286 == parse(DATA.read).sum
+puts parse(File.read("input.txt")).sum
 
 __END__
 Game 1: 3 blue, 4 red; 1 red, 2 green, 6 blue; 2 green
